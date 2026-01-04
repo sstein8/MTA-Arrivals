@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    background: black;
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+  }
+  
+  .screen {
+    padding: 40px;
+  }
+  
+  .row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  .bullet {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    font-size: 48px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+  }
+  
+  .bullet.six {
+    background: #00933c; /* MTA green */
+  }
+  
+  .bullet.bus {
+    background: #0039a6; /* MTA blue */
+    border-radius: 10px;
+    width: 140px;
+  }
+  
+  .times {
+    font-size: 48px;
+  }
+  
