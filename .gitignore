@@ -1,0 +1,10 @@
+# Python
+__pycache__/
+venv/
+.env
+
+# macOS
+.DS_Store
+
+# Secrets
+*.pem
